@@ -1,0 +1,16 @@
+{
+  "build": {
+    "builder": "DOCKERFILE",
+    "dockerfile": "Dockerfile"
+  },
+  "deploy": {
+    "restart": {
+      "enabled": true,
+      "rule": "on-failure"
+    },
+    "resources": {
+      "cpu": 0.1,
+      "memory": 128
+    }
+  }
+} 
