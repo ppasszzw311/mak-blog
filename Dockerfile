@@ -15,4 +15,12 @@ RUN hugo --minify
 
 # 使用 Nginx 作為 Web 伺服器
 FROM nginx:alpine
-COPY --from=builder /src/public /usr/share/nginx/html 
+
+# 複製 Nginx 配置
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# 複製網站文件
+COPY --from=builder /src/public /usr/share/nginx/html
+
+# 暴露端口
+EXPOSE 8080 
