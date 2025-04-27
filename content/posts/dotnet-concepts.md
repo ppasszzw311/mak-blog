@@ -1,9 +1,8 @@
----
-title: ".NET 要學習的概念名詞"
-date: 2024-04-27
-draft: false
-tags: [".NET", "學習", "程式", "物件導向"]
----
++++
+date = '2025-04-27T22:15:18+08:00'
+draft = true
+title = 'Net Learn Word'
++++
 
 ## .NET 基礎架構
 
