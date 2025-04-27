@@ -16,6 +16,9 @@ RUN hugo --minify
 # 使用 Nginx 作為 Web 伺服器
 FROM nginx:alpine
 
+# 創建日誌目錄
+RUN mkdir -p /var/log/nginx
+
 # 複製 Nginx 配置
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 

@@ -17,6 +17,21 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   disableGoogleAnalytics = true
 
+  # Giscus 留言系統配置
+  [params.giscus]
+    enable = true
+    repo = "ppasszzw311/mak-blog"
+    repoId = "973470551"
+    category = "Announcements"
+    categoryId = "44438633"
+    mapping = "pathname"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    theme = "light"
+    lang = "zh-TW"
+    loading = "lazy"
+
 [params.homeInfoParams]
   Title = "歡迎來到鯖魚的筆記簿"
   Content = "這裡是我分享想法和知識的地方"
