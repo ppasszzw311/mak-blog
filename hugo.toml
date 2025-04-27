@@ -1,4 +1,4 @@
-baseURL = "https://mak-blog.zeabur.app/"
+baseURL = "https://your-zeabur-domain.zeabur.app/"
 languageCode = "zh-tw"
 title = "鯖魚的筆記簿"
 theme = "PaperMod"
@@ -15,6 +15,7 @@ theme = "PaperMod"
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  disableGoogleAnalytics = true
 
 [params.homeInfoParams]
   Title = "歡迎來到鯖魚的筆記簿"
