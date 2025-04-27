@@ -1,0 +1,38 @@
+baseURL = "https://mak-blog.zeabur.app/"
+languageCode = "zh-tw"
+title = "鯖魚的筆記簿"
+theme = "PaperMod"
+
+[params]
+  env = "production"
+  description = "這是我的個人筆記簿"
+  keywords = ["筆記", "技術", "生活"]
+  author = "鯖魚"
+  DateFormat = "2006-01-02"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[params.homeInfoParams]
+  Title = "歡迎來到鯖魚的筆記簿"
+  Content = "這裡是我分享想法和知識的地方"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "標籤"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "關於"
+    url = "/about/"
+    weight = 30
